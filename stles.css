@@ -221,6 +221,13 @@ body {
    gap: 2.5rem;
    flex-wrap: wrap;
 }
+.bksh3_img img{
+    padding: 1rem;
+}
+.bksh3_img img:hover{
+    cursor: pointer;
+    border: 1px solid red;
+}
 /* ..........................................4.................................bksh4 */
 .main_bksh4{
     padding: 5rem 0;
@@ -243,7 +250,8 @@ body {
    overflow: hidden;
 }
 .photos-img__item {
-   width:100%;
+    width:100%;
+    cursor: pointer;
 }
    /* ..............................footer */
 .footer-top{
