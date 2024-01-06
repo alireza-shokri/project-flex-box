@@ -1,0 +1,460 @@
+@font-face {
+    font-family: "TTNorms";
+    src: url("fonts/TTNorms-Regular.otf") format("openType");
+}
+@font-face {
+    font-family: "TTNorms Medium";
+    src: url("fonts/TTNorms-Medium.otf") format("openType");
+}
+@font-face {
+    font-family: "TTNorms Light";
+    src: url("../fonts/TTNorms-Light.otf") format("openType");
+}
+@font-face {
+    font-family: "Times Roman Italic";
+    src: url("fonts/Times-new-roman-italic.ttf") format("truetype");
+}
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "TTNorms";
+    box-sizing: border-box;
+}
+.container {
+    max-width: 70rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.menu{
+   padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu__logo-ul{
+    display:flex;
+    align-items: center;
+}
+.menu__ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 10px ;
+    cursor: pointer;
+    transition: 0.8s all ;
+}
+.menu__li{
+    padding: 10px 18px;
+    transition: 0.2s ;
+}
+.menu__li a{
+    text-decoration: none;
+    color: black;
+}
+.menu__li:hover{
+    background-color: #949fb4;
+}
+.menu-link__a{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding:0.7rem 1.3rem;
+    border-radius: 0.3rem;
+}
+.menu__icon{
+    font-size: 1.8rem;
+    display: none;
+    cursor: pointer;
+}
+/* bksh1.....................................................................................bksh1 */
+.header__bksh1{
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: row-reverse;
+   align-items: center;
+}
+.bksh1__noshta{
+    flex-basis: 50%;
+    line-height: 1.8rem;
+}
+.bksh1__noshta__h1{
+    font-weight: bold;
+    font-size: 2.2rem;
+    line-height: 1.2;
+}
+.bksh1__noshta2{
+    max-width: 25rem;
+}
+.bksh1__img {
+    flex-basis: 50%;
+}
+.bksh1__img img{
+    width: 100%;
+}
+.bksh1__link{
+    margin-top: 25px;
+    display: flex;
+   align-items: center;
+}
+.bksh1__links{
+    text-decoration: none;
+    color: white;
+    padding: 5px 40px;
+    background-color: rgb(236, 58, 58);
+    border-radius: 0.3rem;
+    text-align: center;
+}
+.bksh1__link :nth-child(1){
+    background-color: rgb(77, 77, 216);
+    margin-right: 12px;
+}
+.bksh1__links:hover{
+    background-color: blue;
+}
+.bksh1__link :nth-child(2):hover{
+    background-color: rgb(240, 0, 0);
+}
+/* ..........main................................................main bksh2.....................*/
+.section_bksh2{
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+.main_h6{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.main__h2__title,.bksh4_head{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 26px;
+}
+.main__parent{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    text-align: center;
+    line-height: 2;
+}
+.prent__box{
+    flex-basis: 20rem;
+}
+.prent__box-h5{
+    text-align: center;
+    font-size: 20px;
+}
+.prent__box p{
+    font-size: 16px;
+    font-family: TTNorms Light ;
+}
+.main_img{
+    max-width: 31rem;
+    margin: 2.5rem auto;
+}
+.main_img img{
+    width: 100%;
+}
+/* .........bksh3...........................................................bksh3 */
+.main_bksh3{
+    padding: 5rem 0;
+    border-radius: 0.3rem;
+    background-color:#2f5bea;
+}
+.head-bksh3{
+    color: whitesmoke;
+    text-align: center;
+    line-height: 1.8;
+}
+.head-bksh3__h2{
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+.head-bksh3__p{
+    max-width: 25rem;
+    margin: 0 auto;
+    font-weight: normal;
+}
+.box-img{
+    max-width: 60rem;
+    margin: 0 auto;
+}
+.parent-bksh3{
+    margin: 6rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+.parent-bksh3__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   min-height:17rem;
+    background-color: white;
+    padding: 1rem;
+   border-radius: 0.5rem;
+}
+.box-coment{
+    font-family: Times  Italic;
+    line-height: 1.8;
+}
+.bksh3__img__nvshta{
+    display: flex;
+    border-top: 2px solid rgba(0, 0, 0, 0.123);
+    padding-top: 0.8rem;
+    align-items: flex-start;
+    align-items: center;
+}
+.bksh3__img__nvshta p{
+   margin-left: 0.5rem;
+}
+.bksh3_img{
+   display: flex;
+   justify-content: space-between;
+   gap: 2.5rem;
+   flex-wrap: wrap;
+}
+/* ..........................................4.................................bksh4 */
+.main_bksh4{
+    padding: 5rem 0;
+}
+.bksh4_head-p{
+    border-radius: 0.3rem;
+    padding: 1rem;
+}
+.photos{
+    margin-top: 5rem;
+    display: flex;
+   justify-content: space-between;
+    flex-wrap: wrap;
+}
+.photos-img{
+   flex-basis: 21.8rem;
+   flex-shrink: 1;
+    margin-bottom: 1rem;
+   border-radius: 0.8rem;
+   overflow: hidden;
+}
+.photos-img__item {
+   width:100%;
+}
+   /* ..............................footer */
+.footer-top{
+    background-color: #2f5bea;
+}
+.footer-parent{
+    height: 15rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+   }
+   .footer-top__text{
+    color: #fff;
+    font-weight: normal;
+    font-size: 1.3rem;
+    flex-wrap: wrap;
+   }
+   .footer-cherch{
+    display: flex;
+    justify-content: space-between;
+   }
+   .footer-cherch{
+    align-items: center;
+   flex-basis: 22rem;
+    background-color: white;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+   }
+   .footer-input{
+    max-width:  100%;
+    border: none;
+    outline: none;
+   }
+   .btten{
+    background-color:red;
+    border: none;
+    outline: none;
+    padding: 0.7rem 1rem;
+    border-radius: 0.3rem;
+   }
+/* ......................................copy */
+.footer-copy{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #6c7890;
+    flex-wrap: wrap;
+}
+/* ..........................madia........1200......................1200px.............................media */
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .menu__li{
+        padding:10px 13px ;
+    }
+    .photos-img{
+        flex-basis: 18.4rem;  
+    }
+}
+/* ......................................................992px........................................... */
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .menu-link__a{
+        display: none;
+    }
+    .header__bksh1{
+        flex-direction: column;
+         justify-content: center;
+     } 
+     .bksh1__noshta2{
+        max-width: 80%;
+        margin-top: 1rem;
+    }
+     .bksh1__noshta{
+         display: flex;
+         margin-top: 3rem;
+         justify-content: center;
+     }
+     .bksh1__link{
+         display: flex;
+         flex-direction: column;
+         margin: 40px auto;
+         gap: 0.8rem;
+     }
+     .bksh1__links{
+         width: 100%;
+     }
+     .bksh1__link :nth-child(1){
+         margin-right: 0px;
+     }
+/* ..........................................2 */
+     .section_bksh2{
+        padding: 3rem 0;
+     }
+     .main__parent{
+        flex-wrap: wrap;
+     }
+     /* ................................3 */
+     .parent-bksh3{
+        flex-wrap: wrap;
+    }
+    .parent-bksh3__box{
+       flex-basis: 20rem;
+       margin-bottom: 1.5rem;
+    }
+    .bksh3_img{
+        justify-content: center;
+    }
+    /* ........................4..... */
+     .photos-img{
+        flex-basis: 21rem;
+     }
+     .footer-parent{     
+        gap: 3rem;
+       justify-content: center;
+       }
+}
+/* ...........................................................758px....................................... */
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .menu__ul{
+       position: fixed;
+       left: -220px;
+       top: 0;
+       bottom: 0;
+       background-color: #2f5bead2;
+       width: 13rem;
+       flex-direction: column;
+       gap: 0.3rem;
+       padding: 0.5rem;
+    }
+    .menu__li{
+        padding-left: 0;
+        padding: 1rem 0;
+        border-radius: 0.3rem;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .menu__li a{
+        color: white;
+    }
+    .menu__li:hover{
+        transform: translatex(-0.4rem);
+    }
+    .menu__li:hover a{
+       color:black;
+    }
+    .menu__icon{
+       display: block;
+        position: fixed;
+        top: 0.4rem;
+       right: 1rem;
+     }
+     /* ............................................2 */
+     /* .............................................3
+     */
+     .main_bksh3{
+        padding: 3rem 0;
+     }
+    .parent-bksh3{
+        flex-wrap: wrap;
+        margin: 3rem 0;
+     }
+     .parent-bksh3__box{
+       flex-basis: 100%;
+        min-height: 15rem;
+     }
+     /* .........................................4 */
+     .main_bksh4{
+        padding: 3rem 0;
+     }
+     .photos{
+        justify-content: center;
+     }
+     .photos-img{
+       flex-basis: 100%;
+       border-top: 2px solid red;
+     }
+    .footer-parent{
+             flex-direction: column;
+             align-items: center;
+           }
+           .footer-cherch{
+            flex-basis: auto;
+            width: 100%;
+         }
+       .footer-top__text{
+        text-align: center;
+       }
+  }
+/* ...............................................576px................................. */
+@media only screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+    .bksh1__noshta__h1{
+        text-align: center;
+    }
+    .bksh3_img{
+        flex-direction: column;
+    }
+    .footer-input{
+        width: 4rem;
+    }
+    .bksh3_img img{
+        max-width: 100%;
+    }
+} 
