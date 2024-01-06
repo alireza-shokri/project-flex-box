@@ -1,10 +1,10 @@
 @font-face {
     font-family: "TTNorms";
-    src: url("fonts/TTNorms-Regular.otf") format("openType");
+    src: url("TTNorms-Regular.otf") format("openType");
 }
 @font-face {
     font-family: "TTNorms Medium";
-    src: url("fonts/TTNorms-Medium.otf") format("openType");
+    src: url("TTNorms-Medium.otf") format("openType");
 }
 @font-face {
     font-family: "TTNorms Light";
@@ -12,7 +12,7 @@
 }
 @font-face {
     font-family: "Times Roman Italic";
-    src: url("fonts/Times-new-roman-italic.ttf") format("truetype");
+    src: url("Times-new-roman-italic.ttf") format("truetype");
 }
 html {
     box-sizing: border-box;
